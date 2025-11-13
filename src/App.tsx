@@ -11,7 +11,7 @@ import Habitat from './Services/Habitat'
 import Habitatserv from './Services/Habitatserv'
 import Fire from './Services/Fire'
 import Bolttorquing from './Services/Bolttorquing'
-import Head from './Services/head'
+import Head from './Services/Head.tsx'
 
 
 

@@ -1,0 +1,38 @@
+:root {
+  background-color: #242424;  
+  color: white;
+}
+
+body {
+  margin: 0;
+  /* Use Roboto loaded from Google Fonts */
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header{
+  width: 100%;
+  height: auto;
+  background-color: wheat;
+  
+}
+
+/* html, body {
+  overflow-x: hidden;
+  scroll-behavior: none;
+} */
+
+
+/* Tailwind directives removed temporarily for clean reinstall. They will be restored after reinstalling Tailwind. */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

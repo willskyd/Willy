@@ -1,4 +1,6 @@
 // import React from 'react'
+import about from '../img/about.webp'
+import slide2 from '../img/slide2.webp'
 
 const About = () => {
   return (
@@ -8,7 +10,7 @@ const About = () => {
   className=" relative md:w-[100vw] w-screen h-[70vh] overflow-hidden -mt-10 md:left-1/2 md:-translate-x-1/2 -ml-[8vw] md:ml-0 "
 >
   <img
-    src="/src/img/slide2.webp"
+    src={slide2}
     alt="Service"
     className="absolute inset-0 w-full h-full object-cover object-center"
   />
@@ -87,7 +89,7 @@ const About = () => {
 
     <div className="md:w-1/2">
       <img
-       src="/src/img/about.webp"
+       src={about}
         alt="Proficiency section image"
         className="w-full h-auto rounded-lg shadow-md object-cover"
       />
@@ -102,5 +104,6 @@ const About = () => {
     </div>
   )
 }
+
 
 export default About

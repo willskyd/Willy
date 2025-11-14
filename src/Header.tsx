@@ -1,5 +1,9 @@
 import { useState, useEffect } from "react";
 import "./Styles/Header.css";
+import logo from './img/logo.webp'
+import Iso from './img/Iso.webp'
+
+
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,7 +30,7 @@ export default function Header() {
         <div className="flex items-center space-x-1">
           <a href="/">
             <img
-              src="/src/img/logo.webp"
+              src={logo}
               alt="TorqTech Logo"
               className="w-36 h-auto -mt-6"
             />
@@ -34,7 +38,7 @@ export default function Header() {
 
           <a href="/">
             <img
-              src="/src/img/Iso.webp"
+              src={Iso}
               alt="ISO"
               className="w-14 h-auto -mt-6"
             />

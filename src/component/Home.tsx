@@ -10,6 +10,9 @@ import "swiper/css/effect-fade";
 import "../Styles/Header.css"
 import Slide from "../Services/Slide";
 import Floatingmes from "./Floatingmes";
+import safety from '../img/safety.webp'
+import health from '../img/health.webp'
+import slide3 from '../img/slide3.webp'
 
 export default function HeroSlider() {
 
@@ -35,7 +38,7 @@ export default function HeroSlider() {
         <SwiperSlide>
           <div className="relative h-full w-full ">
             <img
-              src="/src/img/safety.webp"
+              src={safety}
               alt="Fast Reliable Service"
               className="w-full h-full object-cover"
             />
@@ -73,7 +76,7 @@ export default function HeroSlider() {
         <SwiperSlide>
           <div className="relative h-full w-full">
             <img
-              src="/src/img/health.webp"
+              src={health}
               alt="Fast Reliable Service"
               className="w-full h-full object-cover"
             />
@@ -108,7 +111,7 @@ export default function HeroSlider() {
         <SwiperSlide>
           <div className="relative h-full w-full">
             <img
-              src="/src/img/slide3.webp"
+            src={slide3}
               alt="Fast Reliable Service"
               className="w-full h-full object-cover"
             />

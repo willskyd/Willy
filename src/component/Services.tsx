@@ -3,6 +3,14 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../Styles/Header.css";
+import serv9 from '../img/serv9.webp'
+import serv7 from '../img/serv7.webp'
+import serv6 from '../img/serv6.webp'
+import serv8 from '../img/serv8.webp'
+import serv5 from '../img/serv5.webp'
+import serv1 from '../img/serv1.webp'
+import serv2 from '../img/serv2.webp'
+import serv3 from '../img/serv3.webp'
 
 
 const Slide = () => {
@@ -39,43 +47,43 @@ const Slide = () => {
   const slides = [
     {
       href: "/Bolt_Tensioning",
-      img: "/src/img/serv1.webp",
+      img: serv1,
       title: "BOLT TENSIONING",
       desc: "Bolt tensioning is a method used to apply a precise and controlled",
     },
     {
       href: "/Cold_Cutting",
-      img: "/src/img/serv2.webp",
+      img: serv2,
       title: "COLD CUTTING",
       desc: "Cold cutting is a precise and efficient method of cutting metal and other ",
     },
     {
       href: "/Habitat_Preparation",
-      img: "/src/img/serv3.webp",
+      img: serv3,
       title: "HABITAT PREPARATION",
       desc: "Habitat preparation involves creating a controlled and safe environment for",
     },
      {
       href: "/Habitat_Service",
-      img: "/src/img/serv5.webp",
+      img: serv5,
       title: "HABITAT SERVICE",
       desc: "Our Habitat Service allows you to carry out hot work and maintenance",
     },
      {
       href: "/Fire_&_Gas_Alarm_System",
-      img: "/src/img/serv6.webp",
+      img: serv6,
       title: "FIRE AND GAS ALARM SYSTEM",
       desc: "  Our Fire & Gas Alarm System ensures early detection and rapid response",
     },
      {
       href: "/Bolt_Torquing_&_Tentioning",
-      img: "/src/img/serv7.webp",
+      img: serv7,
       title: "BOLT TORQUING AND TENSIONING",
       desc: "Our Bolt Torquing & Tensioning service ensures the precise tightening ",
     },
      {
       href: "/Well-Head_Surveillance",
-      img: "/src/img/serv8.webp",
+      img: serv8,
       title: "WELL-HEAD SURVEILLANCE",
       desc: "Our Well-Head Surveillance service provides real-time monitoring and analysis",
     },
@@ -87,7 +95,7 @@ const Slide = () => {
   className=" relative md:w-[100vw] w-screen h-[100vh] overflow-hidden -mt-10 md:left-1/2 md:-translate-x-1/2 -ml-[8vw] md:ml-0 "
 >
   <img
-    src="/src/img/serv9.webp"
+  src={serv9}
     alt="Service"
     className="absolute inset-0 w-full h-full object-cover object-center"
   />

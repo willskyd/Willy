@@ -1,4 +1,5 @@
 // import React from 'react'
+import logo from './img/logo.webp'
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
     {/* Logo Section */}
     <a href="/" className="flex justify-center md:justify-start">
       <img
-        src="/src/img/logo.webp"
+        src={logo}
         alt="TorqTech Logo"
         className="w-[30vw] sm:w-[26vw] md:w-[18vw] h-auto md:-ml-[4rem] md:-mt-[4rem]"
       />

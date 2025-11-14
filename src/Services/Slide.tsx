@@ -36,22 +36,28 @@ const Slide = () => {
 
   const slides = [
     {
-      href: "/Dye_Penetrant_Testing",
+      href: "/Bolt_Tensioning",
       img: "/src/img/serv1.webp",
       title: "BOLT TENSIONING",
       desc: "Tightening and loosening bolts of all sizes on flanges and clamps.",
     },
     {
-      href: "/Ultrasonic_Testing",
+      href: "/Cold_Cutting",
       img: "/src/img/serv2.webp",
       title: "COLD CUTTING",
       desc: "Precision cold cutting using industry-standard machines and expert beveling.",
     },
     {
-      href: "/Eddy_Current_Testing",
+      href: "/Habitat_Preparation",
       img: "/src/img/serv3.webp",
       title: "HABITAT PREPARATION",
       desc: "Professional setup of safe work habitats for hot work areas.",
+    },
+    {
+      href: "/Habitat_Service",
+      img: "/src/img/serv5.webp",
+      title: "HABITAT SERVICE",
+      desc: "Our Habitat Service allows you to carry out hot work and maintenance",
     },
   ];
 

@@ -2,6 +2,11 @@ import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import serv1 from '../img/serv1.webp'
+import serv2 from '../img/serv2.webp'
+import serv3 from '../img/serv3.webp'
+import serv5 from '../img/serv5.webp'
+
 
 const Slide = () => {
   const [isClient, setIsClient] = useState(false); // 🟢 fix: only render slider after mount
@@ -37,25 +42,25 @@ const Slide = () => {
   const slides = [
     {
       href: "/Bolt_Tensioning",
-      img: "/src/img/serv1.webp",
+      img: serv1,
       title: "BOLT TENSIONING",
       desc: "Tightening and loosening bolts of all sizes on flanges and clamps.",
     },
     {
       href: "/Cold_Cutting",
-      img: "/src/img/serv2.webp",
+      img: serv2,
       title: "COLD CUTTING",
       desc: "Precision cold cutting using industry-standard machines and expert beveling.",
     },
     {
       href: "/Habitat_Preparation",
-      img: "/src/img/serv3.webp",
+      img: serv3,
       title: "HABITAT PREPARATION",
       desc: "Professional setup of safe work habitats for hot work areas.",
     },
     {
       href: "/Habitat_Service",
-      img: "/src/img/serv5.webp",
+      img: serv5,
       title: "HABITAT SERVICE",
       desc: "Our Habitat Service allows you to carry out hot work and maintenance",
     },

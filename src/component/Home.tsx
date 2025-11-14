@@ -13,6 +13,7 @@ import Floatingmes from "./Floatingmes";
 import safety from '../img/safety.webp'
 import health from '../img/health.webp'
 import slide3 from '../img/slide3.webp'
+import Iso from '../img/Iso.webp'
 
 export default function HeroSlider() {
 
@@ -147,7 +148,7 @@ export default function HeroSlider() {
 
       <a href="/">
         <img
-          src="/src/img/Iso.webp"
+        src={Iso}
           alt="ISO"
           className="w-[25vw] md:w-[20vw] h-auto mt-6 ml-[35vw] md:ml-[37vw] "
         />

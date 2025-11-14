@@ -1,5 +1,6 @@
 // import React from 'react'
 import '../Styles/Header.css'
+import serv3 from '../img/serv3.webp' 
 
 const Habitat = () => {
   return (
@@ -9,7 +10,7 @@ const Habitat = () => {
   className=" relative md:w-[100vw] w-screen h-[80vh] overflow-hidden -mt-10 md:left-1/2 md:-translate-x-1/2 -ml-[8vw] md:ml-0 "
 >
   <img
-    src="/src/img/serv3.webp"
+    src={serv3}
     alt="Service"
     className="absolute inset-0 w-full h-full object-cover object-center"
   />

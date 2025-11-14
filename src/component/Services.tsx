@@ -114,7 +114,7 @@ const Slide = () => {
 
 
 
-    <section className="body-font py-12 overflow-hidden">
+    <section className="body-font py-12 overflow-hidden ">
       <div className="container mx-auto px-4 md:px-8 lg:px-16 ">
         
         <Slider {...settings} key={isLargeScreen ? "lg" : "sm"}>

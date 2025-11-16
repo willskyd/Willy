@@ -75,6 +75,7 @@ export default function Header() {
         <nav className="hidden md:flex items-center space-x-8 uppercase font-bold text-lg  -mt-6 mr-[5rem]">
           <a href="/" className="hover:text-blue-600 transition-all hover:text-xl">Home</a>
           <a href="/services" className="hover:text-blue-600 transition-all hover:text-xl">Services</a>
+          <a href="/Our_Jobs" className="hover:text-blue-600 transition-all hover:text-xl">Our Jobs</a>
           <a href="/about" className="hover:text-blue-600 transition-all hover:text-xl">About Us</a>
           <a href="/contact">
             <button className="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-800 transition-colors ml-[3rem]">
@@ -94,9 +95,15 @@ export default function Header() {
         }`}
       >
         <nav className="flex flex-col items-end py-6 pr-8 uppercase font-semibold text-base sm:text-lg space-y-4 text-white">
-          <a href="/" className="hover:text-blue-500 transition-all hover:scale-105 mr-1" onClick={() => setIsOpen(false)}>Home</a>
-          <a href="/services" className="hover:text-blue-500 transition-all hover:scale-105 -mr-3.5" onClick={() => setIsOpen(false)}>Services</a>
-          <a href="/about" className="hover:text-blue-500 transition-all hover:scale-105 -mr-3.5" onClick={() => setIsOpen(false)}>About Us</a>
+          <a href="/" className="hover:text-blue-500 transition-all hover:scale-105 mr-1" 
+          onClick={() => setIsOpen(false)}>Home</a>
+          <a href="/services" className="hover:text-blue-500 transition-all hover:scale-105 -mr-3.5" 
+          onClick={() => setIsOpen(false)}>Services</a>
+        <a href="/Our_Jobs" className="hover:text-blue-500 transition-all hover:scale-105 -mr-3.5" 
+        onClick={() => setIsOpen(false)}>Our Jobs</a>
+          <a href="/about" className="hover:text-blue-500 transition-all hover:scale-105 -mr-3.5" 
+          onClick={() => setIsOpen(false)}>About Us</a>
+
           <a href="/contact" onClick={() => setIsOpen(false)} className="relative -mr-8">
             <button className="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-800 transition-colors">
               Contact Us

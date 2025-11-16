@@ -56,7 +56,7 @@ const services: Service[] = [
 },
 
 ];
-// changes made
+
 
 const ServiceCard = ({
   title,

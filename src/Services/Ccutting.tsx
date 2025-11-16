@@ -1,6 +1,6 @@
 // import React from 'react'
 import serv2 from '../img/serv2.webp'
-import Cutservice from './cutservice'
+import Cutservice from './Cutservice'
 
 const Ccutting = () => {
   return (

@@ -20,6 +20,7 @@ import Hservice from './Services/Hservice.tsx'
 import Fsystem from './Services/Fsystem.tsx'
 import Btorquing from './Services/Btorquing.tsx'
 import Whead from './Services/Whead.tsx'
+import Contact from './component/Contact.tsx'
 
 
 
@@ -48,6 +49,7 @@ function App() {
             <Route path="/Fire_&_Gas_Alarm_System_Job" element={<Fsystem />} />
             <Route path="/Bolt_Torquing_&_Tentioning_Job" element={<Btorquing />} />
             <Route path="/Well-Head_Surveillance_Job" element={<Whead />} />
+            <Route path="/Contact" element={<Contact />} />
 
              
            

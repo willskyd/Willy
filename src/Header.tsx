@@ -104,7 +104,7 @@ export default function Header() {
           <a href="/about" className="hover:text-blue-500 transition-all hover:scale-105 -mr-3.5" 
           onClick={() => setIsOpen(false)}>About Us</a>
 
-          <a href="/contact" onClick={() => setIsOpen(false)} className="relative -mr-8">
+          <a href="/Contact" onClick={() => setIsOpen(false)} className="relative -mr-8">
             <button className="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-800 transition-colors">
               Contact Us
             </button>

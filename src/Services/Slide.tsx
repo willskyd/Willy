@@ -67,7 +67,7 @@ const Slide = () => {
   ];
 
   return (
-    <section className="body-font py-12 bg-blue-800">
+    <section className="body-font py-12 ">
       <div className="container mx-auto px-4 md:px-8 lg:px-16">
         {/* 🟢 Add key to force proper recalculation on resize */}
         <Slider {...settings} key={isLargeScreen ? "lg" : "sm"}>

@@ -21,7 +21,8 @@ export default function HeroSlider() {
 
 
   return (
-    <section className="relative left-1/2 right-1/2 -mx-[50vw] md:w-[99.2vw] w-[98.5vw] small_mobile overflow-x-hidden overflow-y-hidden -mt-12">
+    <section className="relative left-1/2 right-1/2   md:left-[50.3%] md:right-[50.3%]   -mx-[50vw] md:w-[99.2vw] w-[98.5vw] small_mobile overflow-x-hidden 
+    overflow-y-hidden -mt-12 ml">
       <Swiper
         modules={[Navigation, Pagination, Autoplay, EffectFade]}
         navigation
@@ -144,7 +145,7 @@ export default function HeroSlider() {
         </SwiperSlide>
       </Swiper>
 
-         <div className="bg-blue-600 w-full h-auto pb-8 p-5 flex-row  items-center justify-center text-white">
+         <div className="bg-gray-200 w-full h-auto pb-8 p-5 flex-row  items-center justify-center text-black">
 
       <a href="/">
         <img
@@ -159,11 +160,16 @@ export default function HeroSlider() {
           </div> 
 
           <div>
-        <div className="hidden md:block text-xl mt-8 text-left ml-[20rem] pb-10 ">
-  At TorqTech Offshore, we're not just part of the offshore technology industry – <br /> we're shaping 
-  its future. Since our founding in [year], we've been at the forefront <br /> of developing cutting-edge 
-  solutions that optimize offshore operations, enhance <br /> safety, and promote sustainability.
+  <div
+  className=" hidden md:block text-base md:text-lg lg:text-xl mt-8 text-left mx-auto max-w-[70%] lg:max-w-[60%] xl:max-w-[50%] 
+    pb-10 ">
+  At TorqTech Offshore, we're not just part of the offshore technology industry – 
+  we're shaping its future. Since our founding in [year], we've been at the forefront 
+  of developing cutting-edge solutions that optimize offshore operations, enhance
+  safety, and promote sustainability.
 </div>
+
+
 
 {/* small screen */}
  <div className="block md:hidden text-xl mt-3  md:text-xl text-left">
@@ -174,17 +180,29 @@ export default function HeroSlider() {
 
     <div>
       <a href="/about">
-            <button className="bg-blue-950 text-white px-5 py-3 rounded-full text-2xl font-semibold
-             hover:bg-yellow-600 transition-colors -ml-[1rem] uppercase md:mt-0 mt-7">
-             More about us
-            </button>
+            <button
+  className="
+    px-8 py-3 
+    rounded-full 
+    text-white 
+    font-semibold 
+    transition-all duration-300
+    bg-gradient-to-r from-gray-300 to-gray-400
+    shadow-lg
+    hover:shadow-none
+    hover:from-gray-400 hover:to-gray-300
+  "
+>
+  More About Us
+</button>
+
           </a>
     </div>
     
           </div>
          </div>
 
-          <div className="bg-blue-800 w-full h-auto pb-8 p-5 flex-row  items-center justify-center text-white">
+          <div className="bg-gray-300 w-full h-auto pb-8 p-5 flex-row  items-center justify-center text-black">
             <div className="text-2xl md:text-3xl md:mt-5 md:ml-7 mt-5 font-bold text-left uppercase ">services</div>
              <div className="mt-5 text-sm -ml-1 text-left md:text-sm md:ml-6">Aimed at building high, and quality Bolt Torquing</div>
         <div className="mt-2 text-sm -ml-1 text-left md:text-sm md:ml-6 ">TORQTECH’S management System works to ISO 9000/14001 standards.</div>

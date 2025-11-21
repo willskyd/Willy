@@ -122,7 +122,7 @@ const Slide = () => {
             <a
               href={slide.href}
               key={i}
-              className="px-3 sm:px-4 md:px-5 lg:px-6 block"
+              className="px-3 sm:px-4 md:px-5 lg:px-6 block pb-10"
             >
               <div className="slide-card relative transition-all duration-500 ease-in-out">
                 <div className="h-auto bg-gray-100 rounded flex flex-col justify-between mt-4 shadow-lg overflow-hidden">

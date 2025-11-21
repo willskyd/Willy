@@ -76,7 +76,7 @@ const Cards = () => {
       <a
         key={index}
         href={item.link}
-        className="block relative bg-white rounded-xl shadow-md p-6 border 
+        className="block relative bg-gray-50 rounded-xl shadow-md p-6 border 
                    flex-col sm:flex-row sm:items-start gap-4
                    shadow-gray-500 hover:shadow-xl transition cursor-pointer z-0"
       >

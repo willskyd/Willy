@@ -68,7 +68,7 @@ const ServiceCard = ({
   const [open, setOpen] = useState(false);
 
   return (
-    <article className="bg-white rounded-lg shadow-md border border-gray-200 flex flex-col overflow-hidden 
+    <article className="bg-gray-50 rounded-lg shadow-md border border-gray-200 flex flex-col overflow-hidden 
     hover:shadow-lg transition-shadow duration-300 max-w-xs md:ml-0 ml-[6vw]">
  
   <div className="h-28 w-full overflow-hidden">

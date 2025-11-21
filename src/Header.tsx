@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./Styles/Header.css";
-import logo from './img/logo.webp'
+import logo1 from './img/logo1.webp'
 import Iso from './img/Iso.webp'
 
 
@@ -25,12 +25,12 @@ export default function Header() {
 
   return (
     <header className={`header_div_fixed ${!isScrolled ? "header_div_transparent" : ""}`}>
-      <div className="flex items-center justify-between pl-6 -mb-[2rem]">
+      <div className="flex items-center justify-between pl-6 mb-[1rem] -mt-3 ">
         {/* ====== LOGO SECTION ====== */}
         <div className="flex items-center space-x-1">
           <a href="/">
             <img
-              src={logo}
+              src={logo1}
               alt="TorqTech Logo"
               className="w-36 h-auto -mt-6"
             />
@@ -72,13 +72,14 @@ export default function Header() {
         </button>
 
         {/* ====== DESKTOP MENU ====== */}
-        <nav className="hidden md:flex items-center space-x-8 uppercase font-bold text-lg  -mt-6 mr-[5rem]">
-          <a href="/" className="hover:text-blue-600 transition-all hover:text-xl">Home</a>
-          <a href="/services" className="hover:text-blue-600 transition-all hover:text-xl">Services</a>
-          <a href="/Our_Jobs" className="hover:text-blue-600 transition-all hover:text-xl">Our Jobs</a>
-          <a href="/about" className="hover:text-blue-600 transition-all hover:text-xl">About Us</a>
+        <nav className="hidden md:flex items-center flex-wrap gap-4 md:gap-4 lg:gap-8 uppercase font-bold text-base 
+        md:text-lg md:items-center md:justify-end md:-mt-6 lg:mr-20 text-black/100">
+          <a href="/" className="hover:text-blue-600 transition transform hover:scale-105">Home</a>
+          <a href="/services" className="hover:text-blue-600 transition transform hover:scale-105">Services</a>
+          <a href="/Our_Jobs" className="hover:text-blue-600 transition transform hover:scale-105">Our Jobs</a>
+          <a href="/about" className="hover:text-blue-600 transition transform hover:scale-105">About Us</a>
           <a href="/contact">
-            <button className="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-800 transition-colors ml-[3rem]">
+        <button className="bg-gray-500 text-white px-4 py-2 rounded-full hover:bg-blue-800 transition-colors ml-2 md:ml-3 lg:ml-10 mr-4">
               Contact Us
             </button>
           </a>
@@ -105,7 +106,7 @@ export default function Header() {
           onClick={() => setIsOpen(false)}>About Us</a>
 
           <a href="/Contact" onClick={() => setIsOpen(false)} className="relative -mr-8">
-            <button className="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-800 transition-colors">
+            <button className="bg-gray-500 text-white px-4 py-2 rounded-full hover:bg-blue-800 transition-colors">
               Contact Us
             </button>
           </a>

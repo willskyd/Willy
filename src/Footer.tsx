@@ -5,7 +5,7 @@ import './Styles/Header.css'
 const Footer = () => {
   return (
   <div className="relative md:w-[100vw] w-screen h-auto overflow-hidden overflow-x-hidden mt-6 top-10 md:left-1/2 md:-translate-x-1/2 -ml-[8vw] md:ml-0
-   bg-gray-100 px-4 py-7 ">
+   bg-gray-600 px-4 py-7 ">
   <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center md:items-start gap-6">
 
     {/* Logo */}

@@ -73,6 +73,10 @@ const ServiceCard = ({
  
   <div className="h-28 w-full overflow-hidden">
     <img src={img} alt={title}
+    loading="lazy"
+      decoding="async"
+      width={80}
+      height={80}
      className="w-20 h-20 object-cover rounded-full pointer-events-none" />
   </div>
 

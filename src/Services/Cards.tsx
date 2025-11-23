@@ -70,7 +70,7 @@ const Cards = () => {
   ];
 
   return (
-   <div className="w-full px-4 pb-2 -mt-[40vh]  ">
+   <div className="w-full px-4 pb-2 -mt-[33vh]  ">
   <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
     {data.map((item, index) => (
       <a

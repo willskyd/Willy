@@ -22,7 +22,7 @@ export default function HeroSlider() {
 
   return (
     <section className="relative left-1/2 right-1/2   md:left-[50.3%] md:right-[50.3%]   -mx-[50vw] md:w-[99.2vw] w-[98.5vw] small_mobile overflow-x-hidden 
-    overflow-y-hidden -mt-12 -mb-[3.99rem] ">
+    overflow-hidden -mt-12 -mb-[3.99rem] ">
       <Swiper
         modules={[Navigation, Pagination, Autoplay, EffectFade]}
         navigation

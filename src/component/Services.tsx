@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../Styles/Header.css";
-import serv9 from '../img/serv9.webp'
+import services from '../img/services.webp'
 import serv7 from '../img/serv7.webp'
 import serv6 from '../img/serv6.webp'
 import serv8 from '../img/serv8.webp'
@@ -95,11 +95,24 @@ const Slide = () => {
   className=" relative md:w-[100vw] w-screen h-[100vh] overflow-hidden -mt-10 md:left-1/2 md:-translate-x-1/2 -ml-[8vw] md:ml-0 "
 >
   <img
-  src={serv9}
+  src={services}
     alt="Service"
-    className="absolute inset-0 w-full h-full object-cover object-center"
+    className="absolute inset-0 w-full h-[60vh] object-cover object-center"
   />
 </section>
+ <div
+  className="absolute left-3 right-3 md:left-3 md:w-[45vw]  top-[25vh] md:top-[20vh] bg-white/75 rounded-lg px-4 py-4 md:py-6 flex 
+    items-center">
+  <p
+    className="text-black/75 font-semibold text-sm sm:text-base md:text-lg leading-relaxed break-words">
+    At TorqTek, we deliver innovative, end-to-end engineering and technology
+    solutions designed to optimize performance, enhance reliability, and
+    drive sustainable growth. Our services span project planning, technical
+    consulting, system integration, and full-scale implementation—ensuring
+    each client receives precise, efficient, and future-ready results.
+  </p>
+</div>
+
 
 {/* <section className="relative -left-16 right-0 w-screen h-[100vh] overflow-hidden">
   <img
@@ -114,7 +127,7 @@ const Slide = () => {
 
 
 
-    <section className="body-font py-12 overflow-hidden ">
+    <section className="body-font py-12 overflow-hidden -mt-[37vh] ">
       <div className="container mx-auto px-4 md:px-8 lg:px-16 ">
         
         <Slider {...settings} key={isLargeScreen ? "lg" : "sm"}>

@@ -71,8 +71,15 @@ const ServiceCard = ({
     hover:shadow-lg transition-shadow duration-300 max-w-xs md:ml-0 ml-[6vw]">
  
   <div className="h-28 w-full overflow-hidden">
-    <img src={img} alt={title}
-     className="w-20 h-20 object-cover rounded-full pointer-events-none" />
+    <img
+      src={img}
+      alt={title}
+      loading="lazy"
+      decoding="async"
+      width={80}
+      height={80}
+      className="w-20 h-20 object-cover rounded-full pointer-events-none"
+    />
   </div>
 
   

@@ -104,14 +104,14 @@
    left: -6.2vw;
   }
 }
-/* @media (min-width: 1400px) {
-  .large_responsive {
+@media (max-width: 950px) {
+  .media_about {
     position: relative;
-    right: 40vh;
-    width: 100%;
+   left: -2.4vw;
+   width: 100vw;
     
   }
-} */
+}
 
   /* 👇 Add focus + blur transition for center effect */
         .slick-slide {

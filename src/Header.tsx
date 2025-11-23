@@ -72,13 +72,12 @@ export default function Header() {
         </button>
 
         {/* ====== DESKTOP MENU ====== */}
-        <nav className="hidden md:flex items-center flex-wrap gap-4 md:gap-4 lg:gap-8 uppercase font-bold text-base 
-        md:text-lg md:items-center md:justify-end md:-mt-6 lg:mr-20 text-black/100">
-          <a href="/" className="hover:text-blue-600 transition transform hover:scale-105">Home</a>
-          <a href="/services" className="hover:text-blue-600 transition transform hover:scale-105">Services</a>
-          <a href="/Our_Jobs" className="hover:text-blue-600 transition transform hover:scale-105">Our Jobs</a>
-          <a href="/about" className="hover:text-blue-600 transition transform hover:scale-105">About Us</a>
-          <a href="/contact">
+        <nav className="hidden md:flex items-center flex-wrap gap-4 md:gap-4 lg:gap-8 uppercase font-bold text-base md:text-lg md:items-center md:justify-end md:-mt-6 lg:mr-20">
+       <a href="/" className={`transition-colors transform hover:scale-105 hover:text-blue-600 ${isScrolled ? 'text-black' : 'text-white'}`}>Home</a>
+       <a href="/services" className={`transition-colors transform hover:scale-105 hover:text-blue-600 ${isScrolled ? 'text-black' : 'text-white'}`}>Services</a>
+       <a href="/Our_Jobs" className={`transition-colors transform hover:scale-105 hover:text-blue-600 ${isScrolled ? 'text-black' : 'text-white'}`}>Our Jobs</a>
+       <a href="/about" className={`transition-colors transform hover:scale-105 hover:text-blue-600 ${isScrolled ? 'text-black' : 'text-white'}`}>About Us</a>
+       <a href="/contact">
         <button className="bg-gray-500 text-white px-4 py-2 rounded-full hover:bg-blue-800 transition-colors ml-2 md:ml-3 lg:ml-10 mr-4">
               Contact Us
             </button>

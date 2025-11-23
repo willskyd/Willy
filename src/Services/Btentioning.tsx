@@ -14,7 +14,11 @@ const Btentioning = () => {
     alt="Service"
     className="absolute inset-0 w-full h-[50vh] object-cover object-center"
   />
+   
 </section>  
+  <div className="absolute text-white text-3xl px-2 md:text-5xl font-extrabold uppercase  inset-0 flex items-center justify-center h-[50vh]">
+    Bolt Tensioning Service
+  </div>
 
      <ServicesSection />
    

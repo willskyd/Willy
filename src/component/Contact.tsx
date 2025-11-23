@@ -1,5 +1,5 @@
 // import React from 'react'
-import serv9 from '../img/serv9.webp'
+import contact1 from '../img/contact1.webp'
 
 const Contact = () => {
   return (
@@ -9,7 +9,7 @@ const Contact = () => {
   className=" relative md:w-[100vw] w-screen h-[50vh] overflow-hidden -mt-10 md:left-1/2 md:-translate-x-1/2 -ml-[8vw] md:ml-0 "
 >
   <img
-  src={serv9}
+  src={contact1}
     alt="Service"
     className="absolute inset-0 w-full h-full object-cover object-center"
   />

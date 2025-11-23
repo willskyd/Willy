@@ -1,13 +1,14 @@
 // import React from 'react'
 import about from '../img/about.webp'
 import slide2 from '../img/slide2.webp'
+import  '../Styles/Header.css'
 
 const About = () => {
   return (
-    <div className="-mb-[16vh] ">
+    <div className=" relative -bottom-[10.5vh] ">
 
         <section
-  className=" relative md:w-[100vw] w-screen h-[70vh] overflow-hidden -mt-10 md:left-1/2 md:-translate-x-1/2 -ml-[8vw] md:ml-0 "
+  className=" relative md:w-[100vw] w-screen h-[70vh] overflow-hidden -mt-[16vh] md:left-1/2 md:-translate-x-1/2 -ml-[8vw] md:ml-0 "
 >
   <img
     src={slide2}
@@ -27,7 +28,7 @@ const About = () => {
   >
    <p className="px-4 sm:px-8 md:px-16 py-10 text-justify leading-relaxed text-base sm:text-lg md:text-xl">
  
-    <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl text-center md:text-left mb-6 md:ml-[13rem]">
+    <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl text-center md:text-left mb-6 lg:ml-[11rem] md:ml-[7rem]">
     TORQTECH OFFSHORE SERVICES LIMITED.
   </h1>
 
@@ -64,15 +65,17 @@ const About = () => {
   </p>
   
 </p>
-     <section className="px-4 sm:px-8 md:px-16 py-10  bg-black/40 ">
-  <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
-    
-    
+    <section className="relative w-full h-auto overflow-hidden px-4 sm:px-8 md:px-12 lg:px-20 py-10 bg-black/40 media_about">
+
+  <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-10">
+
+    {/* Text Section */}
     <div className="md:w-1/2 text-center md:text-left">
-      <h2 className="font-bold text-2xl sm:text-3xl md:text-4xl mb-4">
+      <h2 className="font-bold text-2xl sm:text-3xl md:text-4xl mb-4 text-black">
         PROFICIENCY
       </h2>
-      <p className="text-base sm:text-lg leading-relaxed text-white">
+
+      <p className="text-base sm:text-lg leading-relaxed text-black md:pb-10">
         As a full solution provider of international best practice, we are capable of
         taking on entire projects with extensive technical and administrative capabilities.
         Our Engineers in the technical areas can supervise and manage every critical phase
@@ -82,21 +85,22 @@ const About = () => {
         to the complete integration of your project installations and management.
       </p>
 
-    
-      <hr className="mt-6 border-gray-300 w-3/4 mx-auto md:mx-0" />
+      <hr className="mt-6 border-black w-3/4 mx-auto md:mx-0" />
     </div>
 
-
+    {/* Image */}
     <div className="md:w-1/2">
       <img
-       src={about}
+        src={about}
         alt="Proficiency section image"
         className="w-full h-auto rounded-lg shadow-md object-cover"
       />
     </div>
 
   </div>
+
 </section>
+
 
 
   </div>

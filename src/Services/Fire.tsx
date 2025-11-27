@@ -4,10 +4,10 @@ import serv6 from '../img/serv6.webp'
  
 const Fire = () => {
   return (
-   <div className="pb-10">
+   <div className="relative -bottom-[10.5vh]">
   
   <section
-  className=" relative md:w-[100vw] w-screen h-[80vh] overflow-hidden -mt-10 md:left-1/2 md:-translate-x-1/2 -ml-[8vw] md:ml-0 "
+  className=" relative md:w-[100vw] w-screen h-[80vh] overflow-hidden -mt-[20vh] md:left-1/2 md:-translate-x-1/2 -ml-[8vw] md:ml-0 "
 >
   <img
     src={serv6}

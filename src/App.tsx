@@ -21,6 +21,9 @@ import Fsystem from './Services/Fsystem.tsx'
 import Btorquing from './Services/Btorquing.tsx'
 import Whead from './Services/Whead.tsx'
 import Contact from './component/Contact.tsx'
+import Safety from './Services/Safety.tsx'
+import Health from './Services/Health.tsx'
+import Technology from './Services/Technology.tsx'
 
 
 
@@ -50,6 +53,10 @@ function App() {
             <Route path="/Bolt_Torquing_&_Tentioning_Job" element={<Btorquing />} />
             <Route path="/Well-Head_Surveillance_Job" element={<Whead />} />
             <Route path="/Contact" element={<Contact />} />
+            <Route path="/Safety" element={<Safety />} />
+            <Route path="/Health" element={<Health />} />
+            <Route path="/Technology" element={<Technology />} />
+
 
              
            

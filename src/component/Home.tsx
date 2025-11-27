@@ -12,7 +12,7 @@ import Slide from "../Services/Slide";
 import Floatingmes from "./Floatingmes";
 import safety from '../img/safety.webp'
 import health from '../img/health.webp'
-import slide3 from '../img/slide3.webp'
+import technology from '../img/technology.webp'
 import Iso from '../img/Iso.webp'
 
 export default function HeroSlider() {
@@ -62,10 +62,10 @@ export default function HeroSlider() {
         safety in working environments
       </p>
       <p className="w-auto h-auto p-3 bg-black/45 mt-[1rem] font-semibold justify-start rounded-xl">
-        TorqTech invest in full-time safety coordinator <br />
-        to make certain our HSE department is always up to <br /> date on
-        customer safety requirements and OSHA <br /> regulations.
-        &nbsp; <a href="" className="text-blue-600">Read more</a>
+         At TorqTek, safety is not just a guideline—it is a <br />
+         core value thatdefines every action we take. We <br />  to creating and
+          maintaining work environments <br />  where risks
+        &nbsp; <a href="/Safety" className="text-blue-600">Read more</a>
       </p>
        </div>
        </motion.div>
@@ -98,10 +98,12 @@ export default function HeroSlider() {
               <p className="mt-3 text-white/80 text-sm md:text-lg">
                 <p className="font-bold uppercase text-white/100 md:text-xl text-lg">occupational health & industrial hygiene</p>
 
-                 <p className="w-auto h-auto p-3 bg-black/45 mt-[1rem] font-semibold rounded-xl">A robust and clearly defined occupational 
-                  <br />health and industrial hygiene program is critical <br />for the effectiveness of any business and we 
-                  &nbsp; <br /> <a href="" className="text-blue-600">Read more</a></p>
+                 <p className="w-auto h-auto p-3 bg-black/45 mt-[1rem] font-semibold rounded-xl">At TorqTek, we believe that a healthy 
+                  workforce is <br />critical to delivering excellence. We  prioritize the <br /> physical  and mental well-being of 
+                  our teams,  em- <br />powering them to perform 
+                  &nbsp; <br /> <a href="/Health" className="text-blue-600">Read more</a></p>
               </p>
+               
 
              </motion.div>
                )}
@@ -113,7 +115,7 @@ export default function HeroSlider() {
         <SwiperSlide>
           <div className="relative h-full w-full">
             <img
-            src={slide3}
+            src={technology}
               alt="Fast Reliable Service"
               className="w-full h-full object-cover"
             />
@@ -135,10 +137,10 @@ export default function HeroSlider() {
               <p className="mt-3 text-white/80 text-sm md:text-lg">
                 <p className="font-bold uppercase text-white/100 text-xl">Technology engineering capabilities</p>
 
-                 <p className="w-auto h-auto p-3 bg-black/45 mt-[1rem] font-semibold rounded-xl">Being a whole system supplier also offers 
-                 leading <br /> capabilities in engineering, standard and special <br />fasteners and wide-range bolting tool services.
-                  &nbsp; <br /> <a href="" className="text-blue-600">Read more</a></p>
-              </p>
+                 <p className="w-auto h-auto p-3 bg-black/45 mt-[1rem] font-semibold rounded-xl">At TorqTek, technology drives excellence. 
+                 We <br />  leverage advanced tools, intelligent systems, and <br />data-driven solutions to optimize operational
+                  &nbsp; <br /> <a href="/Technology" className="text-blue-600">Read more</a></p>
+              </p>  
               </motion.div> )}
             </div>
           </div>

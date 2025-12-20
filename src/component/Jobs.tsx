@@ -16,10 +16,10 @@ const Jobs = () => {
   />
 </section>
   <div
-  className="absolute left-3 right-3 md:left-3 md:w-[45vw]  top-[19vh] md:top-[12vh] bg-white/75 rounded-lg px-4 py-4 md:py-6 flex 
+  className="absolute left-3 right-3 md:left-3 md:w-[45vw]  top-[19vh] md:top-[15vh] bg-white/75 rounded-lg px-4 py-4 md:py-6 flex 
     items-center">
   <p
-    className="text-black/75 font-semibold text-sm sm:text-base md:text-lg leading-relaxed break-words">
+    className="text-black/75 font-semibold text-sm sm:text-base leading-relaxed break-words">
    
  At TorqTek, we specialize in delivering reliable engineering, 
     procurement, installation, and maintenance solutions for industrial 
@@ -30,6 +30,10 @@ const Jobs = () => {
     your operations running seamlessly.
   </p>
 </div>
+
+ <div className="absolute font-bold text-white top-[13vh] md:top-[25vh] md:left-[30rem] uppercase left-0 right-0 text-center text-3xl md:text-5xl drop-shadow-lg">
+      Our Jobs
+     </div>
 
    <Cards />
 

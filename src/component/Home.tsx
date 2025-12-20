@@ -44,7 +44,7 @@ export default function HeroSlider() {
               alt="Fast Reliable Service"
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0  bg-black/50 flex flex-col items-center justify-center text-center">
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
                {activeIndex === 0 && (
                <motion.div
                 key="slide1"
@@ -52,16 +52,16 @@ export default function HeroSlider() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: 40 }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
-               className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center"
+               className="absolute inset-0  flex flex-col items-center justify-center text-center"
   >
-    <h2 className="text-white text-4xl md:text-5xl font-black mt-[12rem]">
+    <h2 className="text-white text-2xl md:text-3xl font-black mt-[12rem] ">
       SAFETY
     </h2>
     <div className="mt-3 text-white/80 text-sm md:text-lg">
-      <p className="font-bold uppercase text-white/100 text-xl">
+      <p className="font-bold uppercase text-white/100 text-[0.8rem]">
         safety in working environments
       </p>
-      <p className="w-auto h-auto p-3 bg-black/45 mt-[1rem] font-semibold justify-start rounded-xl">
+      <p className="w-auto h-auto p-3 bg-black/45 mt-[1rem] font-semibold justify-start rounded-xl text-sm">
          At TorqTek, safety is not just a guideline—it is a <br />
          core value thatdefines every action we take. We <br />  to creating and
           maintaining work environments <br />  where risks
@@ -82,7 +82,7 @@ export default function HeroSlider() {
               alt="Fast Reliable Service"
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center">
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
              {activeIndex === 1 && (
            <motion.div
              key="slide2"
@@ -90,15 +90,15 @@ export default function HeroSlider() {
              animate={{ opacity: 1, x: 0 }}
              exit={{ opacity: 0, x: 40 }}
              transition={{ duration: 0.8, ease: "easeOut" }}
-             className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center"
+             className="absolute inset-0 flex flex-col items-center justify-center text-center"
            > 
-              <h2 className="text-white text-4xl md:text-5xl font-black mt-[12rem]">
+              <h2 className="text-white text-2xl md:text-3xl font-black mt-[12rem] ">
                   HEALTH 
               </h2>
               <p className="mt-3 text-white/80 text-sm md:text-lg">
-                <p className="font-bold uppercase text-white/100 md:text-xl text-lg">occupational health & industrial hygiene</p>
+                <p className="font-bold uppercase text-white/100 md:text-xl text-[0.8rem] "> health & industrial hygiene</p>
 
-                 <p className="w-auto h-auto p-3 bg-black/45 mt-[1rem] font-semibold rounded-xl">At TorqTek, we believe that a healthy 
+                 <p className="w-auto h-auto p-2 bg-black/45 mt-[1rem] font-semibold rounded-xl text-sm ">At TorqTek, we believe that a healthy 
                   workforce is <br />critical to delivering excellence. We  prioritize the <br /> physical  and mental well-being of 
                   our teams,  em- <br />powering them to perform 
                   &nbsp; <br /> <a href="/Health" className="text-blue-600">Read more</a></p>
@@ -120,7 +120,7 @@ export default function HeroSlider() {
               className="w-full h-full object-cover"
             />
 
-            <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center">
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
             {activeIndex === 2 && (
             <motion.div
               key="slide3"
@@ -128,16 +128,16 @@ export default function HeroSlider() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -40 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
-              className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center"
+              className="absolute inset-0 flex flex-col items-center justify-center text-center"
             >
 
-              <h2 className="text-white text-4xl md:text-5xl font-black mt-[12rem]">
+              <h2 className="text-white text-2xl md:text-3xl font-black mt-[12rem]">
                   TECHNOLOGY 
               </h2>
-              <p className="mt-3 text-white/80 text-sm md:text-lg">
-                <p className="font-bold uppercase text-white/100 text-xl">Technology engineering capabilities</p>
+              <p className="mt-3 text-white/80 text-sm md:text-xl">
+                <p className="font-bold uppercase text-white/100 text-[1rem]">Technology engineering capabilities</p>
 
-                 <p className="w-auto h-auto p-3 bg-black/45 mt-[1rem] font-semibold rounded-xl">At TorqTek, technology drives excellence. 
+                 <p className="w-auto h-auto p-3 bg-black/45 mt-[1rem] font-semibold rounded-xl text-sm">At TorqTek, technology drives excellence. 
                  We <br />  leverage advanced tools, intelligent systems, and <br />data-driven solutions to optimize operational
                   &nbsp; <br /> <a href="/Technology" className="text-blue-600">Read more</a></p>
               </p>  
@@ -163,8 +163,8 @@ export default function HeroSlider() {
 
           <div>
   <div
-  className=" hidden md:block text-base md:text-lg lg:text-xl mt-8 text-left mx-auto max-w-[70%] lg:max-w-[60%] xl:max-w-[50%] 
-    pb-10 ">
+  className=" hidden md:block text-base md:text-sm lg:text-sm mt-8 text-left mx-auto max-w-[70%] lg:max-w-[60%] xl:max-w-[50%] 
+    pb-10">
   At TorqTech Offshore, we're not just part of the offshore technology industry – 
   we're shaping its future. Since our founding in [year], we've been at the forefront 
   of developing cutting-edge solutions that optimize offshore operations, enhance

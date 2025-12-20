@@ -32,7 +32,7 @@
 
 /* Transparent style (when no scroll yet) */
 .header_div_transparent {
-  background: transparent !important;
+  background: rgb(0 0 0 / 0.20) !important;
   backdrop-filter: none !important;
   border-bottom: none !important;
 }

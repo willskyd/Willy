@@ -14,6 +14,10 @@ const Contact = () => {
     className="absolute inset-0 w-full h-full object-cover object-center"
   />
 </section>
+
+ <div className="absolute font-bold text-white top-[17vh] md:top-[28vh] md:left-[5rem] uppercase left-0 right-0 text-center text-3xl md:text-5xl drop-shadow-lg">
+       Services
+     </div>
        {/* Wrapper that centers the card on ALL screens */}
 <div className="w-full flex justify-center mt-36 px-4 xl:pb-[6vh] ">
 

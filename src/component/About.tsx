@@ -17,9 +17,9 @@ const About = () => {
   />
 </section>
     
-     <div className="absolute uppercase text-white/90 text-6xl font-black top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-    ABOUT US
-  </div>
+     <div className="absolute font-bold text-white top-[15vh] md:top-[40vh] md:left-[5rem] uppercase left-0 right-0 text-center text-3xl md:text-5xl drop-shadow-lg">
+       About Us
+     </div>
     <div
     className="
       bg-black/20 

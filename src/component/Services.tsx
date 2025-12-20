@@ -104,7 +104,7 @@ const Slide = () => {
   className="absolute left-3 right-3 md:left-3 md:w-[45vw]  top-[25vh] md:top-[20vh] bg-white/75 rounded-lg px-4 py-4 md:py-6 flex 
     items-center">
   <p
-    className="text-black/75 font-semibold text-sm sm:text-base md:text-lg leading-relaxed break-words">
+    className="text-black/75 font-semibold text-sm sm:text-base  leading-relaxed break-words">
     At TorqTek, we deliver innovative, end-to-end engineering and technology
     solutions designed to optimize performance, enhance reliability, and
     drive sustainable growth. Our services span project planning, technical
@@ -112,6 +112,10 @@ const Slide = () => {
     each client receives precise, efficient, and future-ready results.
   </p>
 </div>
+
+      <div className="absolute font-bold text-white top-[15vh] md:top-[28vh] md:left-[40rem] uppercase left-0 right-0 text-center text-3xl md:text-5xl drop-shadow-lg">
+       Services
+     </div>
 
 
 {/* <section className="relative -left-16 right-0 w-screen h-[100vh] overflow-hidden">

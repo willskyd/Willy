@@ -21,7 +21,7 @@ const Jobs = () => {
   <p
     className="text-black/75 font-semibold text-sm sm:text-base leading-relaxed break-words">
    
- At TorqTek, we specialize in delivering reliable engineering, 
+     At TorqTech, we specialize in delivering reliable engineering, 
     procurement, installation, and maintenance solutions for industrial 
     and technical operations. From equipment sourcing and system upgrades 
     to on-site support and project supervision, we ensure every service 

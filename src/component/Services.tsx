@@ -105,7 +105,7 @@ const Slide = () => {
     items-center">
   <p
     className="text-black/75 font-semibold text-sm sm:text-base  leading-relaxed break-words">
-    At TorqTek, we deliver innovative, end-to-end engineering and technology
+    At TorqTech, we deliver innovative, end-to-end engineering and technology
     solutions designed to optimize performance, enhance reliability, and
     drive sustainable growth. Our services span project planning, technical
     consulting, system integration, and full-scale implementation—ensuring

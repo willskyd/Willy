@@ -84,12 +84,12 @@ const ServiceCard = ({
       decoding="async"
       width={80}
       height={80}
-     className="w-20 h-20 object-cover rounded-full pointer-events-none" />
+     className="w-[4rem] h-[4rem] object-cover rounded-full pointer-events-none" />
   </div>
 
   
   <div className="p-3 flex flex-col flex-grow -mt-[6vh] ">
-    <h2 className="font-bold text-base text-gray-800 mb-1">{title}</h2>
+    <h2 className="font-bold text-base text-gray-800 mb-1 mt-3">{title}</h2>
 
    
     <button

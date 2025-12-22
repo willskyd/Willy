@@ -77,7 +77,7 @@ const ServiceCard = ({
       decoding="async"
       width={80}
       height={80}
-     className="w-[4rem] h-[4rem] object-cover rounded-full pointer-events-none" />
+     className="w-[4rem] h-[4rem] p-1.5 object-cover rounded-full pointer-events-none" />
   </div>
 
   

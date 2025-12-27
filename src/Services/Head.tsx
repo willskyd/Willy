@@ -14,7 +14,7 @@ const Head = () => {
     alt="Service"
     className="absolute inset-0 w-full h-full object-cover object-center"
   />
-  <div className="absolute uppercase text-white/90 text-6xl font-black top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+  <div className="absolute uppercase text-white/90 text-4xl font-black top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
     WELL-HEAD SURVEILLANCE
   </div>
 </section>
